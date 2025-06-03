@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta content="IE=Edge" http-equiv="X-UA-Compatible">
+  <meta name="description" content="FutureFound">
+
+  <!-- iOS meta tags & icons -->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="apple-mobile-web-app-title" content="FutureFound">
+  <link rel="apple-touch-icon" href="icons/Icon-192.png">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="favicon.png"/>
+
+  <title>FutureFound</title>
+  <link rel="manifest" href="manifest.json">
+
+  <!-- Firebase SDK MUST BE FIRST! -->
+  <script src="https://www.gstatic.com/firebasejs/10.7.1/firebase-app-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/10.7.1/firebase-auth-compat.js"></script>
+  
+  <base href="$FLUTTER_BASE_HREF">
+</head>
+<body>
+  <script>
+    // Your Firebase configuration (REPLACE WITH YOUR ACTUAL CONFIG)
+    const firebaseConfig = {
+      apiKey: "AIzaSyCLhDhqb4d_S9JUuI7S5ZObWn4YXU-oSYM",
+      authDomain: "futurefound-550fe.firebaseapp.com",
+      projectId: "futurefound-550fe",
+      storageBucket: "futurefound-550fe.firebasestorage.app",
+      messagingSenderId: "850438269103",
+      appId: "1:850438269103:web:26ba8707116c2e6efbcc5a"
+    };
+
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+  </script>
+  
+  <!-- Main script -->
+  <script src="main.dart.js" type="application/javascript"></script>
+</body>
+</html>
